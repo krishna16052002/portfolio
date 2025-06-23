@@ -74,7 +74,7 @@ export const SOCIALS = [
   {
     name: "Linkedin",
     icon: RxLinkedinLogo,
-    link: "https://linkedin.com/in/YOUR_LINKEDIN_USERNAME",
+    link: "https://www.linkedin.com/in/krishna-hothi-2bb75535a",
   },
 ] as const;
 
