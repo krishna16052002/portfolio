@@ -15,12 +15,7 @@ export const ProjectCard = ({
   link,
 }: ProjectCardProps) => {
   return (
-    <Link
-      href={link}
-      target="_blank"
-      rel="noreferrer noopener"
-      className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] flex flex-col w-full max-w-[400px] min-h-[420px] bg-[#0a0127]"
-    >
+    <div className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] flex flex-col w-full max-w-[400px] min-h-[420px] bg-[#0a0127]">
       <div className="w-full aspect-[16/9] overflow-hidden bg-black flex-shrink-0">
         <Image
           src={src}
@@ -34,6 +29,6 @@ export const ProjectCard = ({
         <h1 className="text-2xl font-semibold text-white mb-2">{title}</h1>
         <p className="text-gray-300 line-clamp-3 overflow-hidden min-h-[72px]">{description}</p>
       </div>
-    </Link>
+    </div>
   );
 };
